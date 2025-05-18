@@ -1,15 +1,15 @@
 /*I wrote a script to automate my job. Now I just sit back and watch Netflix while it runs.*/
 
-const session = process.env.SESSION || '';
+const session = process.env.SESSION || 'KEITH;;;H4sIAAAAAAAAA5VU2bKiSBD9l3rVaMGFxYgbMSCIuAAK4jIxDwUUUOxShYod/vsE3r59+2Gm5w5PRVZG5smT59R3UJSYoBVqwfQ7qGp8hRR1R9pWCEyB3IQhqkEfBJBCMAWNmYxHvBonzkn1uAlOxqHCzouYLYi1rCLv4jjs+n7FZMG8gWcfVI2XYf83BRlOSE13z10N+S4bfnr2R9yOXc/9YYZ5zXRvyGQCzphri/INPLuKENe4iNQqRjmqYbZCrQVx/TX4uuoxof04JbIb2TlU2X3v6OZmGWZqUJKFfW0FIyuL5cqVvga/ZzqWnYvSug24UjeFEG2psig8PzUz3Ro4Op73lMyw57fxO3yCowIFeoAKimn7Zd6h4Z34pX2o4vAeL8/0cEbF5srk27m588s6X60S9h5wg1w7fQ34VT9EukHDPe+cZPe+LLnNTVB0UQwGW8lIWa2asXlyfRSa/ytwq/7QSvp/eG/VgVfBdvNYbvYWPcDLyt2VhM+V1WDJOH7THm5ifDJ8Wx1/DT4OU2XxKCZFwPqnYXx257pDmh51peOBVZydGFtrFkEyiMgnfEib+ncoUbJlUXbJtlvxpggWtvii50E8SrxF2vQcsTYXmpTazPVkQ5mfHdyLzst5YqFYki7xdS1dDG1NGzZLZ3AvcDVzdhJ5+/aaKEWtHoAp++yDGkWY0BpSXBZdjGP6AAZXG/k1oi92AbOKTzBync3+nHve5HbgFa70cXCBnsYddpzN6/45ZmN7HL2BPqjq0keEoGCBCS3rdoMIgREiYPrnX31QoDt931vXbcT2QYhrQvdFU2UlDD6W+nEJfb9sCmq3hT/rDqgGU+YzjCjFRUQ6GpsC1n6Mr2gWQ0rANIQZQT8HRDUKwJTWDfpp2lkZdLyPZtpCsjUb9EH+2gcOwBSIw9GQn4z48VCYTPnRH+TbrSsLq+pbgSjog+yVNmJElh1PGGYi8ILQJXbx50+AXb0AUYgzAqZgZjU+Rqqmmuv5ZaNqmnSKpFkkgc+BPoTxzvzE8TZiZBwXLXZ6xHI2xmWDmPNNbGFUrNmas2Bj2I/sPtq+/UMRMAUZ3Ttj48gZUs/f6eqjaq7ssWkfAz/F7nKMVo9jmR4zUzVT9cSQahAcDoWy3LSFPNtJ6TJNw3awsbLjeDTYxtLt7O9kpVNRHwToin30a7PcdeVosJLW1YKMhdX2YRBZa5XkCtlSklt9biTb4U6qw2Um3BtFoDdmMGt0w+Cj2ePgxJXZPvSVetP8OS944W2dHPCHZF+WyX48Vfilpm5V3W+I0cv5BewW+N+rewfeKYx59n+p8eMt+Rc/ymg/fFgnxb0LZTqoFeahwGRBNd/y83LZirCXDOtkTyZ+wIDn868+qDJIw7LOuxezCOoSB6AP6rLpJKsXYfmbZjNZ1z8mzyCh0qcNHJwjQmFegSnLj/mJyIqs8J5l1WW1gCQGUzB0ef6y7zTdSlVlU0g/XAWk7tMmGnj+DYhCRlFwBwAA';
 
 const prefix = process.env.PREFIX || '.';
 const mycode = process.env.CODE || "254";
-const author = process.env.OWNER_NAME || 'Keith';
-const packname = process.env.PACKNAME || 'keith';
-const dev = process.env.OWNER_NUMBER || '254748387615';
+const author = process.env.OWNER_NAME || 'Asad Malik';
+const packname = process.env.PACKNAME || 'Asad';
+const dev = process.env.OWNER_NUMBER || '923275374285';
 const DevKeith = dev.split(",");
-const botname = process.env.BOTNAME || 'KEITH-MD';
-const mode = process.env.MODE || 'public';
+const botname = process.env.BOTNAME || 'Asad-MD';
+const mode = process.env.MODE || 'private';
 const gcpresence = process.env.GC_PRESENCE || 'tru';
 const antionce = process.env.ANTIVIEWONCE || 'true';
 const sessionName = "session";
@@ -33,7 +33,7 @@ const chatbot = process.env.CHATBOT || 'false';
 const greet = process.env.GREET || 'true';
 const autodownloadstatus = process.env.AUTODOWNLOAD_STATUS || 'false';
 const autostatusreply = process.env.AUTOREPLY_STATUS || 'true';
-const autostatusmsg = process.env.AUTOSTATUS_MSG || 'viewed';
+const autostatusmsg = process.env.AUTOSTATUS_MSG || 'Status View By 💗Asad Malik';
 const greetmsg = process.env.GREET_MSG || 'my owner is unavailable text back later';
 const timezone = process.env.TIMEZONE || 'Africa/Nairobi';
 const autoread = process.env.AUTOREAD || 'true';
